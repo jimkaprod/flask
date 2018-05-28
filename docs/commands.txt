@@ -1,0 +1,4 @@
+docker build -t  fanoftal2/flask-crud-base:1 .
+docker exec -ti flask_web_1 /bin/bash
+docker exec -ti flask_db_1 psql -U marco -W  postgres
+docker-compose up --build --force-recreate -d
