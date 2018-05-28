@@ -9,6 +9,7 @@ DBHOST = 'db'
 DBPORT = '5432'
 DBNAME = 'testdb'
 
+print('bonjour')
 
 app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///students.sqlite3'

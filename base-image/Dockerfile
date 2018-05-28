@@ -2,6 +2,8 @@
 
 FROM alpine:3.7
 
+RUN apk add --update bash && rm -rf /var/cache/apk/*
+
 ADD requirements.txt /home/app/
 WORKDIR /home/app/
 

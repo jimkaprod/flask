@@ -4,8 +4,10 @@ services:
     build: .
     ports:
       - "5000:5000"
+    stdin_open: true
+    tty: true
     volumes:
-      - ./app/:/home/app/
+      - .:/home/app/
     depends_on:
       - db
   db:
