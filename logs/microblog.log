@@ -1,0 +1,59 @@
+2018-05-29 12:56:58,523 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:37:34,735 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:37:40,174 ERROR: Exception on /index [GET] [in /usr/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/app/app/routes.py", line 26, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2018-05-29 13:39:12,584 ERROR: Exception on /index [GET] [in /usr/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/app/app/routes.py", line 26, in index
+    def index():
+NameError: name 'PostForm' is not defined
+2018-05-29 13:39:43,973 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:39:44,283 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:41:05,856 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:41:06,166 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:42:30,652 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:49:30,020 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:49:30,327 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:51:32,290 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:51:40,867 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:52:05,730 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:55:39,271 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:55:45,734 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:55:48,186 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:55:57,836 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:56:04,324 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:56:44,550 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:56:52,075 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:59:18,821 INFO: Microblog startup [in /home/app/app/__init__.py:46]
+2018-05-29 13:59:21,246 INFO: Microblog startup [in /home/app/app/__init__.py:46]
