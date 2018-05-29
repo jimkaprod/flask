@@ -5,3 +5,6 @@ psycopg2
 flask-wtf
 flask-migrate
 flask-login
+flask-mail
+pyjwt
+flask-bootstrap
