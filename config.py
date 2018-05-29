@@ -30,3 +30,4 @@ class Config(object):
   ADMINS = ['jm@jimkaprod.com']
 
   POSTS_PER_PAGE = 3
+  LANGUAGES = ['en', 'fr']
